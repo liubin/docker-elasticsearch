@@ -7,3 +7,5 @@ RUN wget https://artifacts.elastic.co/downloads/kibana/kibana-5.0.1-linux-x86_64
   && rm kibana-5.0.1-linux-x86_64.tar.gz
 
 EXPOSE 5601
+
+COPY kibana.yml /opt/kibana-5.0.1-linux-x86_64/config/

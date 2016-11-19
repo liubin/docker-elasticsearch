@@ -19,7 +19,7 @@ fi
 
 # start kibana
 
-nohup /opt/kibana/bin/kibana &
+nohup /opt/kibana-5.0.1-linux-x86_64/bin/kibana &
 
 # As argument is not related to elasticsearch,
 # then assume that user wants to run his own process,
